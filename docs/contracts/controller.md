@@ -6,10 +6,13 @@ Controller
 ========
 This contract is using for connect person, exchanger, true nft
 
-#### Variables
+## Constructor
+Pubkey in init data
+
+## Variables
 * uint256 client - pubkey of owner this controller
 
-#### Methods
+## Methods
 * buyNFT(address pair, price uint128) - Buy a pair (doesnt matter what kind of pair). Need to be an owner of this controller
 * mintNFT(rootNFT address, bytes metadata(its a json metadata)) - Mint a new nft for this controller
 * transferOwnership(address dataNFT, address addrTo) - Transfer a nft token #TODO
