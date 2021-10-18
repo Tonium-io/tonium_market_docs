@@ -6,7 +6,7 @@ Pair
 ========
 This is an interface for changing ton to nft/ft
 
-#### Variables
+## Variables
 * address seller
 * uint256 seller_pubkey
 * address exchanger
@@ -17,7 +17,7 @@ This is an interface for changing ton to nft/ft
 * uint128 commission
 * uint128 price
 
-#### Methods
+## Methods
 * addNewToken(address token_addr) - then you transfer tnft token to pair address you need to send a new address of data tnft there
 * approveSell() - start selling tokens
 * pre_finish() - force send token to owner. Can call only owner of this pair
@@ -25,6 +25,6 @@ This is an interface for changing ton to nft/ft
 * sell(address client) - call from controller method [buyNFT](/contracts/controller#methods-4)
 
 
-
+## Pairs
 * [NFTPair](/contracts/pair/NFTPair.md)
 * [NFTAuction](/contracts/pair/NFTAuction.md)
